@@ -1,0 +1,25 @@
+{
+  "name": "formulario",
+  "version": "1.0.0",
+  "description": "Formulario creado en base a los requisitos solicitados para el quiz tecnico #3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Source/index.js" 
+  },
+  "keywords": [],
+  "author": "Sebastian Santis",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "fs-extra": "^10.1.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
