@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
 import {mongoURL} from '../config.js'
 
+/**
+ * @var mongoUrl es la url creada en el entorno de desarrollo en el archivo de variables de entorno
+ */
 
 export async function conectDB () {
 

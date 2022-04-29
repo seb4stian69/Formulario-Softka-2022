@@ -20,6 +20,6 @@ app.use(postsRoutes)
 conectDB()
 
 // Run server
-app.listen(3000)
+app.listen(port)
 console.log('\n+ ------------------------------- +')
 console.log('Server on port', port)
