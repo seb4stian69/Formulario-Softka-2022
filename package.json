@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build --prefix frontend",
+    "build": "npm install --prefix frontend npm run build --prefix frontend",
     "start": "node Source/index.js", 
     "dev": "nodemon Source/index.js" 
   },
