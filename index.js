@@ -2,7 +2,7 @@
 import express from 'express'
 import postsRoutes from './Backend/Routes/post.routes.js'
 import {conectDB} from './Backend/Database/databaseConect.js'
-import {port} from './Backend/config.js'
+import {PORT} from './Backend/config.js'
 import morgan from 'morgan'
 import {dirname, join} from 'path'
 import { fileURLToPath } from 'url'
@@ -24,6 +24,6 @@ app.use(express.static( join(__dirname, 'frontend/build') ))
 conectDB()
 
 // Run server
-app.listen(port)
+app.listen(PORT)
 console.log('\n+ ------------------------------- +')
-console.log('Server on port', port)
+console.log('Server on port', PORT)
