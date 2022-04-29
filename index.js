@@ -27,3 +27,7 @@ conectDB()
 app.listen(PORT)
 console.log('\n+ ------------------------------- +')
 console.log('Server on port', PORT)
+
+app.get('*', (res,req) => {
+    res.sendFile(join(__dirname, 'frontend/build/index.html'))
+})
