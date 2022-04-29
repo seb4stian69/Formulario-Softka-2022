@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon Source/index.js" 
+    "build": "npm run build --prefix frontend",
+    "start": "node Source/index.js", 
+    "dev": "nodemon Source/index.js" 
   },
   "keywords": [],
   "author": "Sebastian Santis",
